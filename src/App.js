@@ -4,7 +4,7 @@ import Product from './components/Product';
 import {useState} from 'react';
 
 function App() {
-  
+
   const [selectedCount,setCount]=useState(0);
   // const [books, setBook] = useState([
     
@@ -44,3 +44,10 @@ function App() {
   );
 }
 export default App;
+/**
+ * Frågor
+ * Tips på att veta vart data ska ligga 
+ * Behöver spara titel i lista, är det bättre att tänka som todo och lägga in titlar i en array 
+ * Hur sparar man state 
+ * 
+ */

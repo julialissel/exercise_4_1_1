@@ -1,3 +1,17 @@
+button{
+    border: none;
+    padding: 0 .6rem;
+    border-radius: 5px;
+}
+button.close{
+    background-color: rgb(218, 50, 50);
+    font-size: 2rem;
+    color: white;
+    transition: all .2s;
+}
+button.close:hover{
+    background-color: rgb(173, 39, 39);
+}
 .cart{
     display: flex;
     align-items: center;
@@ -20,12 +34,28 @@
 .cart .shoppingCart{
     position: absolute;
     background-color: aliceblue;
-    padding: 1rem;
-    bottom: -5rem;
+    padding: 2rem 1.5rem;
+    top: 6rem;
+    min-width: 40%;
+    border-radius: 5px;
 }
-.cart .shoppingCart ul{
+.cart .shoppingCart .cartHeader{
+    margin-bottom: 1rem;
+}
+.cart .shoppingCart .cartList{
     list-style: none;
 }
-.cart .shoppingCart ul li{
-    padding: 1rem 0;
+.cart .shoppingCart .cartList .cartItem{
+    padding: .5rem 0;
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+.cart .shoppingCart .cartList .cartItem:first-child{
+
+    border-top: 1px solid rgb(24, 24, 24);
+
+}
+.cart .shoppingCart .cartList .cartItem .cartItemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

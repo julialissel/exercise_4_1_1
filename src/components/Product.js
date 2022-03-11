@@ -8,12 +8,12 @@ function Product({ update, setTitle, setCount, title, author, excerpt }){
         setCount(prevCounter => prevCounter + 1);
         const titleBook = [title];
         
-        setTitle(title);
+        setTitle(books);
         // update(title);
         setBook(books => {
-            return [...books,titleBook]
+            return [...books,title]
         });
-        console.log('this', e.target);
+        
     }
     return(
         <article className='card'>

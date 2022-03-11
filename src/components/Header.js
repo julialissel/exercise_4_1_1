@@ -5,7 +5,7 @@ import {useState} from 'react';
 
 function Header({ selectedTitle, selectedCount }){
     
-    
+    console.log(selectedTitle);
     return(
         <header>
             <div className='headerContainer'>
