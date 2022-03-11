@@ -1,0 +1,9 @@
+header{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+header .headerContainer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
