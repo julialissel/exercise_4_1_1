@@ -1,19 +1,7 @@
 import './Product.css';
 import {useState} from 'react';
 function Product({ updateCart,book }){
- 
-    
-    
     function onBtnClick(e){
-        console.log("test");
-        // setCount(prevCounter => prevCounter + 1);
-        // // const titleBook = [title];
-        // console.log(e.this.title);
-        // // setTitle(books);
-        // // // update(title);
-        // // setBook(books => {
-        // //     return [...books,title]
-        // // });
         updateCart(book);
     }
     return(

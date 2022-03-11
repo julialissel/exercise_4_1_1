@@ -36,13 +36,3 @@ function Cart({cart}){
 }
 
 export default Cart;
-
-{/* <h3>Varukorg</h3>
-                {/* {sendTitile.map((book) => {
-                    return <li>{book.title}</li>
-                })} */}
-                // <ul>
-                //     <li>
-                //         {sendTitile}
-                //     </li>
-                // </ul> */}

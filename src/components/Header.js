@@ -5,7 +5,7 @@ import {useState} from 'react';
 
 function Header({ cart }){
     
-    
+    console.log(selectedTitle);
     return(
         <header>
             <div className='headerContainer'>
