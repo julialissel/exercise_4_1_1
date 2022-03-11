@@ -3,7 +3,7 @@ import logo from '../img/logo.png';
 import Cart from './Cart';
 import {useState} from 'react';
 
-function Header({ selectedTitle, selectedCount }){
+function Header({ cart }){
     
     
     return(
@@ -12,7 +12,7 @@ function Header({ selectedTitle, selectedCount }){
                 <a herf="#" className='logo'>
                     <img src={logo}/>
                 </a>
-                <Cart sendCount = {selectedCount} sendTitile = {selectedTitle}/>
+                <Cart cart = {cart} />
             </div>
         </header>
     )
